@@ -4,10 +4,6 @@ info:
   title: Echo
   description: '<script>alert(document.domain)</script>'
   termsOfService: "javascript:alert(document.cookie)"
-  contact: 
-    name: "API Support",
-    url: "javascript:alert(document.cookie)",
-    email: "javascript:alert(document.cookie)"
 paths:
   /:
     get:
