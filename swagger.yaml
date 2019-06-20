@@ -3,7 +3,6 @@ info:
   version: 1.0.0
   title: Echo
   description: '<script>alert(document.domain)</script>'
-  termsOfService: "javascript:alert(document.cookie)"
 paths:
   /:
     get:
